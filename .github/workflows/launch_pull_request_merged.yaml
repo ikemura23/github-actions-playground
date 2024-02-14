@@ -1,0 +1,11 @@
+name: Pull Request Trigger Merged
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test name
+        run: echo hello world
